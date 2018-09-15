@@ -16,7 +16,7 @@ public class JacobDrive {
         this.leftMotor = left;
         this.rightMotor = right;
     }
-    public void jDrive(Float power){
+    public void jDrive(double power){
         rightMotor.setPower(power);
         leftMotor.setPower(-power);
     }
